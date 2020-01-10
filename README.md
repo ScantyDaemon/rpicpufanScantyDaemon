@@ -1,4 +1,4 @@
-# Raspberry Pi cup Fan + shutdown button
+# Raspberry Pi cpu Fan + shutdown button
 rip cpu fan + shutdown button
 
 1.Use chip transistor like bc547.

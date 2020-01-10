@@ -16,16 +16,24 @@ rip cpu fan + shutdown button
 Then paste this code:
 
 [Unit]
+
 Description=NAMEOFYOURSERVICE Service
+
 After=multi-user.target
+
 Conflicts=getty@tty1.service
 
+
 [Service]
+
 Type=simple
+
 ExecStart=/usr/bin/python3 /home/pi/temp.py
+
 StandardInput=tty-force
 
 [Install]
+
 WantedBy=multi-user.target
 
 

@@ -3,7 +3,7 @@ rip cpu fan + shutdown button
 
 1.Use cheep transistor like bc547.
 
-2.Control transistor pin connected to pin 2 gpio.
+2.Connect emiter transistor pin to pin 2 gpio.
 
 3.cpu fan "+" pin connect to transistor, "-" pin connect to any GND.
 

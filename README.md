@@ -17,7 +17,7 @@ nano /lib/systemd/system/NAMEOFYOURSERVICE.service
   
 
 Then paste this code:
-
+#=================================================
 
 
 
@@ -45,7 +45,7 @@ WantedBy=multi-user.target
 
 
 
-
+#===============================================
 7. copy file temp.py into /home/pi/temp.py
 
 8. Load Ned deamon with command: systemctl daemon-reload

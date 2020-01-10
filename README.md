@@ -1,7 +1,7 @@
 # Raspberry Pi cpu Fan + shutdown button
 rip cpu fan + shutdown button
 
-1.Use chip transistor like bc547.
+1.Use cheep transistor like bc547.
 
 2.Control transistor pin connected to pin 2 gpio.
 

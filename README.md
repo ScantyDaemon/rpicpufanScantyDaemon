@@ -11,9 +11,15 @@ rip cpu fan + shutdown button
 
 5. download python 3 and all dependencies.
 
-6. make new systemcl daemon with following code and change "NAMEOFYOURSERVICE" on your name: nano /lib/systemd/system/NAMEOFYOURSERVICE.service
+6. make new systemcl daemon with following code and change "NAMEOFYOURSERVICE" on your name: 
+
+nano /lib/systemd/system/NAMEOFYOURSERVICE.service
   
+
 Then paste this code:
+
+
+
 
 [Unit]
 
@@ -35,6 +41,9 @@ StandardInput=tty-force
 [Install]
 
 WantedBy=multi-user.target
+
+
+
 
 
 7. copy file temp.py into /home/pi/temp.py
